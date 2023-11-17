@@ -3,10 +3,12 @@ import React from 'react'
 import CartScreen from './screen/CartScreen'
 import HomeScreen from './screen/HomeScreen'
 import ScanScreen from './screen/ScanScreen'
+import SplashScreen from './screen/SplashScreen'
+import PaymentScreen from './screen/PaymentScreen'
 
 const App = () => {
   return (
-    <HomeScreen/>
+    <PaymentScreen/>
   )
 }
 
